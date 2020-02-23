@@ -1,48 +1,153 @@
-#banner {
-    width: 100%;
-}
-
-.beneficios {
-    background: #ffffff;
-    padding: 20px;
-}
-
-.principal {
+header {
     background: #cccccc;
-    padding: 30px;
+    padding: 20px 0;
 }
 
-.titulo-center {
-    text-align: center;
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
-.titulo-principal {
-    margin-left: 20px;
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
-p {
-    text-align: center;
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
-em strong {
-    color: red;
+nav a:hover {
+    color: darkred;
+    text-decoration: underline;
 }
 
-ul {
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
-#missao {
+.produtos li:hover {
+    border-color: darkred;
+}
+
+.produtos li:active {
+    border-color: #088c19;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+footer .copyright {
+    font-size: 13px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,
+form legend {
+    display: block;
     font-size: 20px;
+    margin: 0 0 10px;
 }
 
-.itens {
-    font-style: italic;
-}
-
-.imagem-beneficios {
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
     width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: darkred;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: red;
+    transform: rotate(5deg) scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+    width: 40%;
+}
+
+thead {
+    background: darkred;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid #000000;
+    padding: 15px 8px;
 }
