@@ -1,7 +1,9 @@
+/*Definindo font para todas as páginas*/
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/*Header*/
 header {
     background: #cccccc;
     padding: 20px 0;
@@ -37,6 +39,20 @@ nav a:hover {
     margin: 0 auto;
 }
 
+/*Footer*/
+footer {
+    text-align: center;
+    background: url("../images/bg.jpg");
+    padding: 40px 0;
+}
+
+footer .copyright {
+    font-size: 13px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+/*Página de produtos*/
 .produtos {
     width: 940px;
     margin: 0 auto;
@@ -82,21 +98,10 @@ nav a:hover {
     font-size: 18px;
 }
 
+/*Página de contatos*/
 .contato-conteudo {
     width: 940px;
     margin: 0 auto;
-}
-
-footer {
-    text-align: center;
-    background: url("../images/bg.jpg");
-    padding: 40px 0;
-}
-
-footer .copyright {
-    font-size: 13px;
-    color: #ffffff;
-    margin-top: 20px;
 }
 
 form {
@@ -162,6 +167,7 @@ th {
     padding: 15px 8px;
 }
 
+/*Página Home*/
 .banner {
     width: 100%;
 }
@@ -274,7 +280,7 @@ th {
     font-weight: bold;
 }
 
-
+/*Definições para celular*/
 @media screen and (max-width: 470px) {
     .caixa,
     .principal,
