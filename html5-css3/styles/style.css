@@ -302,4 +302,32 @@ th {
     .imagem-beneficios {
         width: 100%;
     }
+
+    .produtos li {
+        display: block;
+        margin:20px 1.5%;
+        position: relative;
+        left: 70px;
+    }
+
+    .contato-conteudo {
+        width: auto;
+    }
+
+    .contato-conteudo input[type="text"],
+    .contato-conteudo input[type="tel"],
+    .contato-conteudo input[type="email"],
+    .contato-conteudo input[type="submit"],
+    .contato-conteudo textarea,
+    .contato-conteudo table {
+        width: 70%;
+    }
+
+    .contato-conteudo form {
+        padding: 0 40px;
+    }
+
+    .contato-conteudo table {
+        margin: 0 0 20px 40px;
+    }
 }
